@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WanderGuide - Discover Your Next Adventure</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container container">
+            <div class="logo">
+                <i class="fas fa-compass"></i>
+                <h1>WanderGuide</h1>
+            </div>
+            
+            <div class="search-container">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Where to next?">
+            </div>
+            
+            <div class="user-actions">
+                <a href="#"><i class="fas fa-heart"></i> Saved</a>
+                <a href="#"><i class="fas fa-user"></i> Account</a>
+            </div>
+        </div>
+        
+        <nav class="main-nav">
+            <div class="container">
+                <ul class="nav-links">
+                    <li><a href="#"><i class="fas fa-search"></i> Search All</a></li>
+                    <li><a href="#"><i class="fas fa-bed"></i> Stays</a></li>
+                    <li><a href="#"><i class="fas fa-utensils"></i> Dining</a></li>
+                    <li><a href="#"><i class="fas fa-map-marked-alt"></i> Experiences</a></li>
+                    <li><a href="#"><i class="fas fa-plane"></i> Flights</a></li>
+                    <li><a href="#"><i class="fas fa-car"></i> Rental</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Discover Your Next Adventure</h2>
+            <p>Find unforgettable experiences tailored just for you, with recommendations from travelers who've been there.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary">Explore Experiences</a>
+                <a href="#" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>Find Things To Do By Interest</h2>
+                <p>Whatever you're passionate about, we've got experiences you'll love</p>
+            </div>
+            
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-hiking"></i>
+                    </div>
+                    <h3>Outdoors</h3>
+                    <p>Hiking, camping, and nature adventures</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-landmark"></i>
+                    </div>
+                    <h3>Culture</h3>
+                    <p>Museums, historical sites, and local traditions</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Food & Drink</h3>
+                    <p>Cooking classes, food tours, and tastings</p>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Water Activities</h3>
+                    <p>Boat tours, snorkeling, and beach fun</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section class="experiences">
+        <div class="container">
+            <div class="section-title">
+                <h2>Popular Experiences Near You</h2>
+                <p>Inspiration to get you going on your next adventure</p>
+            </div>
+            
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <img src="sunset cruise.png" alt="Sunset Cruise" class="experience-img">
+                    <div class="experience-content">
+                        <div class="experience-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(128 reviews)</span>
+                        </div>
+                        <h3>Sunset Sailing Cruise</h3>
+                        <div class="experience-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Miami, Florida</span>
+                        </div>
+                        <div class="experience-price">From $45 per person</div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <img src="local food walking tour.png" alt="Food Tour" class="experience-img">
+                    <div class="experience-content">
+                        <div class="experience-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(245 reviews)</span>
+                        </div>
+                        <h3>Local Food Walking Tour</h3>
+                        <div class="experience-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>New Orleans, Louisiana</span>
+                        </div>
+                        <div class="experience-price">From $65 per person</div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <img src="private city highlights tour.png" alt="City Tour" class="experience-img">
+                    <div class="experience-content">
+                        <div class="experience-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(187 reviews)</span>
+                        </div>
+                        <h3>Private City Highlights Tour</h3>
+                        <div class="experience-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Paris, France</span>
+                        </div>
+                        <div class="experience-price">From $120 per person</div>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="destinations">
+        <div class="container">
+            <div class="section-title">
+                <h2>Iconic Places You Need To See</h2>
+                <p>Where to travel around the world based on your interests</p>
+            </div>
+            
+            <div class="destination-tabs">
+                <button class="tab-btn active">Trending</button>
+                <button class="tab-btn">Beaches</button>
+                <button class="tab-btn">Cities</button>
+                <button class="tab-btn">Nature</button>
+            </div>
+            
+            <div class="destination-grid">
+                <div class="destination-card">
+                    <img src="Newyork usa.png" alt="New York" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>New York City</h3>
+                        <p>United States</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="france paris.png" alt="Paris" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>Paris</h3>
+                        <p>France</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="rome italy.png" alt="Rome" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>Rome</h3>
+                        <p>Italy</p>
+                    </div>
+                </div>
+                
+                <div class="destination-card">
+                    <img src="japan  tokyo image.png" alt="Tokyo" class="destination-img">
+                    <div class="destination-overlay">
+                        <h3>Tokyo</h3>
+                        <p>Japan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Get Travel Inspiration Directly To Your Inbox</h2>
+            <p>Subscribe to our newsletter for the latest travel deals, tips, and destination guides</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About WanderGuide</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#">Write a Review</a></li>
+                        <li><a href="#">Add a Place</a></li>
+                        <li><a href="#">Travel Guides</a></li>
+                        <li><a href="#">Travelers' Choice</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Do Business With Us</h3>
+                    <ul>
+                        <li><a href="#">Owners</a></li>
+                        <li><a href="#">Business Advantage</a></li>
+                        <li><a href="#">Sponsored Placements</a></li>
+                        <li><a href="#">Advertise</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Get The App</h3>
+                    <p>Download our app for the best experience</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 WanderGuide. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
